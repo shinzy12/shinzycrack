@@ -416,7 +416,7 @@ class Main:
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
 		print(" [4] Cloning akun 2009-10")
-		print(" [5] Cloning akun 2008")
+		print(" [5] Cloning akun 2008-09")
 		print(" [E] Exit Programming\n")
 		Ahsan =input(" Choose : ")
 		if Ahsan in ["1", "01"]:
