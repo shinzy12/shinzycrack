@@ -412,12 +412,12 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\n [1] File Cloning")
-		print(" [2] Public Cloning")
-		print(" [3] Create File")
+		print("\n [1] Crack Dari File")
+		print(" [2] Crack Dari Id Publik")
+		print(" [3] Membuat file")
 		print(" [4] Cloning akun 2009-10")
-		print(" [5] Cloning akun 2008-09")
-		print(" [E] Exit Programming\n")
+		print(" [5] Cloning akun 2009(Jan-Agt)")
+		print(" [E] Keluar Program\n")
 		Ahsan =input(" Choose : ")
 		if Ahsan in ["1", "01"]:
 			File()
@@ -452,13 +452,13 @@ class Main:
 				print("\n\033[1;32m [!] MASUKAN SANDI (123456) UNTUK MEMULAI \033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
-					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
+					exit("\n%s [!] PASSWORD MINIMAL 6 CHARACTERS"%(B))
 				print("%s [*] CRACK DENGAN PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
 				print("\n%s [+] OK RESULTS TERDIMPAN DI -> ok.txt"%(Y))
 				print("%s [+] CP RESULTS TERDIMPAN DI -> cp.txt"%(G))
-				print("%s [!] MODE PESAWAT 5 DETIK JIKA TIDAK ADA HASIL\x1b[0m\n"%(P))
+				print("%s [!] MODE PESAWAT 5 TAHUN JIKA TIDAK ADA HASIL😂\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
