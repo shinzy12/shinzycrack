@@ -1294,7 +1294,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://pastebin.com/raw/ANkD1swm").text
+	r1=requests.get("https://pastebin.com/raw/XySKuti7").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1308,7 +1308,7 @@ def Subscraption():
 		print(logo)
 		print ("")
 		print(" \033[1;32m SHIN Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
+		print(" \033[1;32m Note : Paid Tolls \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1321,6 +1321,6 @@ def Subscraption():
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+923494462675?text=' + tks)
+		os.system('am start https://wa.me/+6286740559154?text=' + tks)
 		Subscraption()        
 Subscraption()
