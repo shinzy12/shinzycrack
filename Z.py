@@ -1291,7 +1291,7 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.zyshin53', 'r').read()
+	key1=open('', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://pastebin.com/raw/XySKuti7").text
