@@ -416,7 +416,7 @@ class Main:
 		print(" [2] Crack Dari Id Publik")
 		print(" [3] Membuat file")
 		print(" [4] Cloning akun 2009-10")
-		print(" [5] Cloning akun 2008-09")
+		print(" [5] Cloning akun 2011-16")
 		print(" [E] Keluar Program\n")
 		Ahsan =input(" Choose : ")
 		if Ahsan in ["1", "01"]:
@@ -863,9 +863,9 @@ class Main:
 		self.loop +=1
 
 	def old2(self):
-		x = 11111111
-		xx = 99999999
-		idx = "1000000" 
+		x = 1111111111
+		xx = 9999999999
+		idx = "10000" 
 		os.system('clear');print(logo)
 		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL ID CRACK/CLONING LIMIT 50,000: "))
 		try:
